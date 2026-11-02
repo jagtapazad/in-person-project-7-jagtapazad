@@ -4,18 +4,16 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Hi, I'm <span className="highlight">John Doe</span>
+            Hi, I'm <span className="highlight">Azad Jagtap</span>
           </h1>
           <p className="hero-subtitle">
-            Full Stack Developer passionate about building amazing web experiences
+            Graduate Student, UC Berkeley School of Information
           </p>
           <p className="hero-description">
-            I specialize in React, Node.js, and modern web technologies.
-            Currently focused on building scalable applications and exploring
-            machine learning integrations.
+            Learning to build modern, responsive web experiences with HTML, CSS, and JavaScript
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">View My Work</a>
+            <a href="#projects" className="btn btn-primary">View Projects</a>
             <a href="#contact" className="btn btn-secondary">Get In Touch</a>
           </div>
         </div>

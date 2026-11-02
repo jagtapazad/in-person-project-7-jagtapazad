@@ -515,6 +515,65 @@
   color: var(--text-light);
 }
 
+/* Add-project form (Part 5) */
+.project-form {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--bg-light);
+}
+
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.form-error {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+/* Debounced search box (Extension Tier 1) */
+.project-search {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.project-search input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.project-search input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Label for screen readers only */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar-menu {
